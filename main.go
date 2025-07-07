@@ -42,7 +42,7 @@ func main() {
 		}
 		chutes[i] = chuteInt
 	}
-	fmt.Printf("Infelizmente você nao acertou o numero, que era %d\n"+
+	fmt.Printf("Infelizmente você nao acertou o numero!, que era %d\n"+
 		"Você teve 10 tentativas.\n"+
 		"Essas foram as suas tentativas: %v\n", x, chutes)
 }
